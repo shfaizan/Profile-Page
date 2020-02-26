@@ -122,7 +122,7 @@ class MainPage extends StatelessWidget {
             Column(
               children: <Widget>[
                 Text(
-                  "245",
+                  "250",
                   style: textStyleTop,
                 ),
                 Text(
