@@ -46,7 +46,7 @@ class MainPage extends StatelessWidget {
       ),
     );
   }
-
+// Here is the profile
   _profileRow() {
     return Padding(
       padding: EdgeInsets.all(16.0),
@@ -57,8 +57,8 @@ class MainPage extends StatelessWidget {
             height: 70.0,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("book.jpg"),
-                fit: BoxFit.cover,
+                image: AssetImage("profile.jpg"),
+                fit: BoxFit.contain,
               ),
               borderRadius: BorderRadius.circular(20.0),
             ),
